@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Eroded';
+    src: url('fonts/ERODED-PERSONAL-USE.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    font-family: 'Eroded';
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+  
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
