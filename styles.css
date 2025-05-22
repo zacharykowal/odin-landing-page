@@ -21,6 +21,32 @@ body {
     color: #F9FAF8;
 }
 
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.container-1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 ul {
     display: flex;
     gap: 24px;
