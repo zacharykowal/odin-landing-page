@@ -37,6 +37,10 @@ body {
     border-radius: 25px;
 }
 
+.container-1 p {
+    color: #E5E7EB;
+}
+
 .container-2 {
     padding: 75px;
 }
@@ -88,5 +92,5 @@ ul {
   
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
