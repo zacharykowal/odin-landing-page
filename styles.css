@@ -45,7 +45,7 @@ body {
     padding: 75px;
 }
 
-.container-2 h2 {
+.container-2 h2, .container-3 h2 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 75px;
@@ -62,13 +62,41 @@ body {
     padding: 10px;
 }
 
-.section {
+.container-2 .section {
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 18px;
     gap: 250px;
     color: #1F2937;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 75px;
+}
+
+.container-3 img {
+    width: 160px;
+    height: 220px;
+}
+
+.container-3 .text {
+    width: 600px;
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.container-3 .section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 275px;
+}
+
+.signature {
+    text-align: right;
 }
 
 button {
